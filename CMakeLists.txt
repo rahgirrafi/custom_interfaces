@@ -13,7 +13,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Float32FixedArray.msg"
+  "msg/Float32FixedArray4.msg"
+  "msg/Float32FixedArray8.msg"
+
 
  )
 
